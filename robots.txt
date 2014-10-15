@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Disallow: /sections/error404/
+Disallow: /sections/reportes/

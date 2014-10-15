@@ -1,0 +1,6 @@
+﻿[h1]H1 Headline principal
+[h2]H2 Reforzar el main headline
+[h3]H3 beneficios principales del producto o servicio
+[h3-complementary]H3 Reforzar la información general (Testimonios, Razones, etc)
+[keywords]key1,key2,key3,key4
+[main-content]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec vestibulum odio, vel mollis orci. Vestibulum massa metus, imperdiet sit amet mattis ut, hendrerit vel enim. Vestibulum eu neque neque. In pellentesque porta pretium. Nulla nec tempus eros, eu mattis sapien

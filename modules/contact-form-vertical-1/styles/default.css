@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* Contact Form vertical 1 */
+
+.textfield-10, 
+.textfield-20, 
+.textfield-30,
+.textfield-40,
+.textfield-50, 
+.textfield-60, 
+.textfield-70, 
+.textfield-100{
+	background: #fff;
+	border: 1px solid #949494;
+	box-sizing: border-box;
+	color: #000;
+	font-size: 15px;
+	height: 38px;
+	line-height: 35px;
+	margin: 0 -5px 16px 0;
+	padding: 0 0 0 10px;
+	width: 100%;
+	-webkit-appearance: none;  
+    -webkit-border-radius: 0px;
+}
+
+.textfield-100:before, .textfield-100:after{
+	box-sizing: inherit;
+}
+
+.textfield-10{
+	width: 10%;
+}
+
+.textfield-20{
+	width: 20%;
+}
+
+.textfield-30{
+	width: 30%;
+}
+
+.textfield-40{
+	width: 40%;
+}
+
+.textfield-50{
+	width: 50%;
+}
+
+.textfield-60{
+	width: 60%;
+}
+
+.textfield-70{
+	width: 70%;
+}
+
+.fix-block-5,
+.fix-block-10,
+.fix-block-20{
+	display: inline-block;
+	float: none;
+	height: 3px;
+	margin: 0;
+	width: 10%;	
+}
+.fix-block-5{
+	width: 5%;
+}
+
+.fix-block-20{
+	width: 20%;
+}
+
+.textarea-100{
+	background: #fff;
+	border: 1px solid #949494;
+	box-sizing: border-box;
+	color: #000;
+	font-size: 15px;
+	height: 114px;
+	line-height: 25px;
+	margin: 0 -5px 16px 0;
+	padding: 0 0 0 10px;
+	width: 100%;
+	-webkit-appearance: none;  
+    -webkit-border-radius: 0px;
+}
+
+.selectfield-100, .selectfield-50, .selectfield-30{
+	background: #434343;
+	border: 1px solid #949494;
+	box-sizing: border-box!important;
+	color: #fff;
+	font-size: 15px;
+	height: 38px;
+	margin: 0 -5px 16px 0;
+	overflow: hidden;
+	padding: 0 0 0 10px;
+	width: 100%;
+	-webkit-appearance: none;  
+    -webkit-border-radius: 0px;
+}
+
+.selectfield-30{
+	width: 30%;	
+}
+
+.selectfield-50{
+	width: 50%;	
+}
+
+.form-button{
+	margin: 10px 0 0 0;
+	padding: 8px 30px;
+}
+
+.form-policy{
+	font-size: 13px;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+.form-note{
+	color: #666;
+	font-size: 12px;
+	margin: 0 0 10px 0;
+}

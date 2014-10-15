@@ -1,0 +1,28 @@
+<!-- BEGIN: main -->
+
+<section id="form-contact-vertical-1">
+
+    <form method="post" action="{__SITE_DOMAIN__}index.php?action=save-lead" class="validate-form">
+        <fieldset>
+            <input type="text" name="name" placeholder="Nombre*" class="validate textfield-100" value="">
+            <input type="text" name="phone_number" placeholder="Teléfono*" class="validate textfield-100" value="">
+            <input type="text" name="email" placeholder="E-mail*" class="validate email-field textfield-100" value="">
+            <textarea name="comments" placeholder="Comentarios" class="textarea-100"></textarea>
+        </fieldset>
+        <fieldset>
+        	<p class="form-note">* No usaremos tu información para enviarte mensajes sin tu consentimiento.</p>
+            <div>
+                <input type="checkbox" name="policy" value="1"> 
+                <label class="form-policy">Acepto haber leído los <a href="{__SITE_DOMAIN__}terminos-y-condiciones.html" class="policy-link">términos y condiciones</a></label>
+            </div>
+            <input type="text" name="captcha" class="captcha-field">
+            <input type="hidden" name="source" value="landing-page-1">
+            <div class="align-right">
+                <input type="submit" name="send" class="form-button" value="enviar">
+            </div>
+        </fieldset>
+    </form>
+    
+</section>
+
+<!-- END: main -->

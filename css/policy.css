@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* Policy Style */
+
+@import url('normalize.css');
+
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+.main-wrapper{
+	margin: 0 auto;
+	width: 650px;
+}
+
+p{
+	text-align: justify;	
+}

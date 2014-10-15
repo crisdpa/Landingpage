@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* Reports Style */
+
+@import url('../../css/template.css');
+
+#main-content{
+	padding: 0 0 20px 0;	
+}
+
+.field-show-date{
+	width: 100px;	
+}
+
+.tbl-report-100{
+	background: #fff;
+	border: 1px solid #D0D0D0;
+	font-family: sans-serif;
+	margin: 20px 0 0 0;
+	width: 100%;	
+}
+
+.tbl-report-100 th, .tbl-report-100 td{
+	font-size: 12px;
+	padding: 10px;
+	text-align: left;
+}
+
+.tbl-report-100 th{
+	background: #333;	
+	color: #fff;
+}
+
+.tbl-report-100 td{
+	border: 1px dotted #D0D0D0;	
+}
+
+.tbl-report-100 tr:nth-child(odd){
+	background: #ededed;	
+}
+
+.tbl-report-100 tr:hover{
+	background: #1061A3;
+	color: #fff;	
+}
+
+	.tbl-report-100 tr:hover a{
+		color: #fff;	
+	}
+	
+#content-filter{
+	margin: 20px 0 0 0;	
+}
+
+.total-results{
+	font-size: 17px;
+}
+
+.pager{
+	margin: 30px 0 0 0;
+	text-align: center;
+}
+
+	.pager a{
+		color: #333;
+		display: inline-block;
+		font-family: sans-serif;
+		padding: 10px;
+		text-decoration: none;
+	}
+	
+	.pager a:hover{
+		color: #000;
+	}
+	
+	.pager a.selected{
+		color: #fff;
+		background: #333;
+	}
+	
+	.pager a.nav{
+		color: #FF2E1F;
+		font-weight: bold;
+	}
