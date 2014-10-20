@@ -17,7 +17,7 @@
 	 
 	 session_start();
 	
-	//ini_set('display_errors','on');
+	//ini_set('display_errors','off');
 	
 	require_once("configuration.php");
 	require_once("classes/query.class.php");
@@ -124,7 +124,7 @@
 			
 			if($qs_section != 'reportes' and $qs_section != 'error404'){
 				
-				$section_copy = $core -> getCopyFromFile('sections/landing-page-1/copy.txt');
+				$section_copy = $core -> getCopyFromFile('sections/'.$qs_section.'/copy.txt');
 			
 				$core->setTitle(empty($section_copy['h1'])?'':$section_copy['h1']);
 				$core->setMetaDescription(empty($section_copy['main-content'])?'':$section_copy['main-content']);
@@ -133,7 +133,7 @@
 				$tplSection -> assign('__H2__', empty($section_copy['h2'])?'':$section_copy['h2']);
 				$tplSection -> assign('__H3__', empty($section_copy['h3'])?'':$section_copy['h3']);
 				$tplSection -> assign('__H3_COMPLEMENTARY__', empty($section_copy['h3-complementary'])?'':$section_copy['h3-complementary']);
-				$tplSection -> assign('__CONTACT_MODULE__', $core -> loadModule($section_contact_form));
+				$tplSection -> assign('__CONTACT_MODULE__', $core -> loadModule($section_contact_form, $qs_section));
 				
 				$core -> setStyle($config -> domain.'modules/'.$section_contact_form.'/styles/default.css');
 				

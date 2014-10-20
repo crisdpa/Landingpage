@@ -1,3 +1,3 @@
 <?php
-	//Code here
+	$tplModule -> assign('__LANDINGPAGE__', $params);
 ?>
